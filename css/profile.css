@@ -1,0 +1,302 @@
+body{
+    width:100%;
+    height:100%;
+    margin: 0;
+}
+.space{width:100%;height:7px;}
+.spacebig{width:100%;height:30px;}
+.header{
+
+    width:100%;
+    height:50px;
+    background-image: linear-gradient(to bottom , #ddd,white);
+
+    border:1px solid #ddd;
+}
+.header .links{
+    width:50%;
+    float: left;
+    text-align: center;
+}
+.header .links ul{
+    float: right;
+    width:80%;
+    list-style-type: none;
+    
+}
+
+.header .links ul li a{
+    float: left;
+    margin-left:13px;
+}
+
+.header .search{
+    width:40%;
+    float: left;
+}
+.header .search input[type=search]{
+    width:80%;
+    height:30px;
+    border-radius: 5px;
+    border:1px solid #ddd;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.header .search input[type=submit]{
+    width:10%;
+    height:30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: white;
+    border:1px solid #ddd;
+}
+.header .search input[type=submit]:hover{
+    background-color: white;
+    color: darkblue;
+    cursor: pointer;
+}
+/* */
+
+
+.parent{
+    width:100%;
+    height:400px;
+   
+}
+
+.parent .left{
+    position: relative;
+    float: left;
+    text-align: center;
+    width:40%;
+    height:100%;
+    margin-left: 10px;
+    overflow: hidden;
+    
+}
+.parent .left img{
+    width:50%;
+    height:50%;
+    border-radius: 50%;
+
+}
+.parent .left #facebook{
+    width:30px;
+    height:30px;
+    position: absolute;
+    top:150px;
+    left:360px;
+    opacity: .9;
+}
+
+
+.parent .left #facebook:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.parent .left p{
+    height: 20%;
+    overflow: hidden;
+    margin-left:15px;
+
+}
+
+.parent .right{
+    float: left;
+    width:40%;
+    height:100%;
+    margin-left: 60px;
+    overflow: hidden;
+
+}
+.parent .right .title{
+    float: left;
+    width:20%;
+
+}
+.parent .right .title #log{
+    width:15px;height:15px;
+}
+
+.parent .right .detail{
+     float: left;
+    width:60%;
+    
+}
+.parent .right .detail h4{
+    width:100%;
+    overflow: hidden;
+
+    opacity: .7;
+}
+.parent_products{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+
+}
+/*   ************                */
+/*  */
+.parent_products .who{
+    width:20%;
+    float: left;
+  
+   
+}
+.parent_products .who .person{
+    width:100%;
+    height:50px;
+}
+/*  */
+.parent_products .who .person .image{float: left;width:25%;height:100%;}
+.parent_products .who .person .image img{width:100%;height:100%;border-radius: 50%;}
+/*     *      */
+.parent_products .who .person .info{
+   float: left;width:62%;height:100%;
+    margin-left: 5px;
+}
+.parent_products .who .person .info #name{
+    color: blue;
+    font-size: 14px;
+}
+.parent_products .who .person .info #info{
+    opacity: .7;
+    font-size: 12px;
+    margin-top: -15px;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+
+/*    *    */
+.parent_products .items_parent{
+  
+    width:68%;
+    height:auto;
+    overflow: hidden;
+    float: left;
+  
+}
+.items_parent .item_part{
+  
+    float: left;
+    margin:10px;
+    width:30%;
+    height:390px;
+   
+}
+.items_parent .item_part img{
+
+    opacity: .7;
+    border-radius: 7px;
+    width:100%;
+    height:60%;
+    margin-bottom: 5px;
+  
+}
+.items_parent .item_part img:hover{
+    opacity: 1;
+    cursor: pointer;
+  transform: scale(1.1);
+}
+.items_parent .item_part #name{
+    margin-left: 7px;
+    font-size: 16px;
+    color: rgb(46, 44, 44);
+    opacity: .7;
+}
+
+.items_parent .item_part #price{
+    float: right;
+    margin-right: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(46, 44, 44);
+    opacity: .7;  
+}
+.items_parent .item_part #desc{
+   width:100%;
+   height:50px;
+   overflow: hidden;
+    color: rgb(46, 44, 44);
+    opacity: .7; 
+}
+.items_parent .item_part button{
+    border-radius: 7px;
+    float: right;
+    margin-right:7px;
+    color: white;
+    background-color: #ddd;
+    width:70px;
+    height:27px;
+    border: 1px solid #ddd;
+}
+.items_parent .item_part button:hover{
+
+    color: darkblue;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+
+.footer{
+    text-align: center;
+    width:100%;
+    height:50px;
+    background-image: linear-gradient(to top , #ddd,white);
+    border:1px solid #ddd;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:420px){
+
+.header .links{
+    display: none;
+}    
+.header .search{
+    width:100%;
+}
+.header .search{
+    width:100%;
+}
+.header .search input[type=search]{
+    width:60%;
+}
+.header .search input[type=submit]{
+    width:30%;
+}
+
+/* ****   */
+.parent .left{
+    width:100%;
+    margin-left: 0;
+}
+.parent .left p{
+    margin-left: 1px;
+}
+.parent .right{
+    display: none;
+}
+
+.parent_products .who{
+    width: 100%;
+}
+.parent_products .who p{
+    margin-left: 7px;
+}
+
+.parent_products .items_parent{
+    width:100%;
+}
+.items_parent .item_part{
+    width: 100%;
+    
+}
+
+
+
+
+
+}

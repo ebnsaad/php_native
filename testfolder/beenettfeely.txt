@@ -1,0 +1,28 @@
+
+https://bennettfeely.com/clippy/
+
+clip-path: polygon(0 0, 60% 57%, 100% 100%, 0% 100%);
+-webkit-clip-path: polygon(0 0, 60% 57%, 100% 100%, 0% 100%);
+
+
+-webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+
+2 good very good
+http://www.99lime.com/elements/#table-example
+
+kickstart
+
+//
+
+    2
+    https://getbootstrap.com/2.3.2/base-css.html#buttons
+
+    https://get.foundation/sites/docs/button.html
+
+    http://getskeleton.com/
+
+icons
+https://icons.getbootstrap.com/
+    https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use
